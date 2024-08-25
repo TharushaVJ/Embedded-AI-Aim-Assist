@@ -51,7 +51,7 @@ This project aims to create an automated aim assist system for an FPS game ("V")
 1. **Clone this repository**:
     ```bash
     git clone https://github.com/TharushaVJ/Embedded-AI-Aim-Assist.git
-    cd AI-Aim-Assist
+    cd Embedded-AI-Aim-Assist
     ```
 
 ## License
