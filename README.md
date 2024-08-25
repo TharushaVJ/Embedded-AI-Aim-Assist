@@ -10,7 +10,7 @@ This project aims to create an automated aim assist system for an FPS game ("V")
 - **Coral Edge TPU USB Accelerator**: Accelerates the object detection process on the Raspberry Pi.
 - **Arduino Leonardo**: Acts as a USB mouse, receiving input from the Raspberry Pi and translating it into mouse movements.
 - **Capture Card**: Used to capture the screen output of the game for real-time processing. (might use a HDMI to CSI2 adapter instead)
-- **Level Shifter**: Used to connect the Arduino Leonardo which has 5V GPIO pins and the Raspberry Pi 4 which has 3.3V GPIO pins theough I2C.
+- **Level Shifter**: Used to connect the Arduino Leonardo which has 5V GPIO pins and the Raspberry Pi 4 which has 3.3V GPIO pins through I2C.
 
 ## Software Components
 
@@ -18,12 +18,12 @@ This project aims to create an automated aim assist system for an FPS game ("V")
 - **Python**: The primary programming language used for the data processing and model inference.
 - **Arduino IDE**: For programming the Arduino Leonardo to spoof the mouse.
 
-## Project Structure
+## Project Structure (Temporary)
 
-- `/models/`: Contains the trained TensorFlow object detection models.
-- `/scripts/`: Python scripts for data processing and interfacing with the hardware.
-- `/arduino/`: Arduino sketches for the Leonardo.
-- `/data/`: Datasets used for training the object detection model.
+- [`/models/`](https://github.com/TharushaVJ/AI-Aim-Assist/tree/main/models): Contains the trained TensorFlow object detection models.
+- [`/scripts/`](https://github.com/TharushaVJ/AI-Aim-Assist/tree/main/scripts): Python scripts for data processing and interfacing with the hardware.
+- [`/arduino/`](https://github.com/TharushaVJ/AI-Aim-Assist/tree/main/arduino): Arduino sketches for the Leonardo.
+- [`/data/`](https://github.com/TharushaVJ/AI-Aim-Assist/tree/main/data): Datasets used for training the object detection model.
 
 ## How It Works
 
