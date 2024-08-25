@@ -10,7 +10,7 @@ This project aims to create an automated aim assist system for an FPS game ("V")
 - **Coral Edge TPU USB Accelerator**: Accelerates the object detection process on the Raspberry Pi.
 - **Arduino Leonardo**: Acts as a USB mouse, receiving input from the Raspberry Pi and translating it into mouse movements.
 - **Capture Card**: Used to capture the screen output of the game for real-time processing. (might use a HDMI to CSI2 adapter instead)
-- **Level Shifter**: Used to connect the Arduino Leonardo which has 5V GPIO pins and the Raspberry Pi 4 which has 3.3V GPIO pins theough I2C.
+- **Level Shifter**: Used to connect the Arduino Leonardo which has 5V GPIO pins and the Raspberry Pi 4 which has 3.3V GPIO pins through I2C.
 
 ## Software Components
 
